@@ -1,0 +1,25 @@
+{
+  "name": "grand-fir",
+  "version": "1.0.0",
+  "description": "The set of custom functions for the Troop 246 Tree Recycling Fundraiser.",
+  "license": "MIT",
+  "private": true,
+  "author": "Jason Mock",
+  "keywords": [
+    "Google Workspace",
+    "Apps Script",
+    "Sheets"
+  ],
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-google": "0.14.0",
+    "eslint-plugin-googleappsscript": "1.0.4"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint **/*.gs",
+    "fix": "./node_modules/.bin/eslint **/*.gs --fix --quiet"
+  },
+  "eslintIgnore": [
+    "**/node_modules/**"
+  ]
+}
